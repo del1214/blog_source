@@ -155,5 +155,18 @@ brew install ruby
 
 ## 必备软件
 
-* 开发工具：Google Chrome,Sublime Text 3,WebStorm,Parallels Desktop,Photoshop,Sketch
-* 生产力工具：Alfred 2,Dash,1Password,Manico,Moom,Mou,MS Office
+* 开发工具：
+    * Google Chrome
+    * Sublime Text 3
+    * WebStorm
+    * Parallels Desktop
+    * Photoshop
+    * Sketch
+* 生产力工具：
+    * Alfred 2
+    * Dash
+    * 1Password
+    * Manico
+    * Moom
+    * Mou
+    * MS Office
