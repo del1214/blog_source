@@ -81,12 +81,14 @@ avatar: /uploads/avatar.jpg
 #social links
 social:
   Github: https://github.com/del1214
+  V2ex: https://www.v2ex.com/member/del1214
+  SegmentFault: https://segmentfault.com/u/del1214
+  Zhihu: https://www.zhihu.com/people/de-wei-3
+  bilibili: https://space.bilibili.com/4830148/#/
 
 # links
 links:
-  v2ex: http://v2ex.com/
-  SegmentFault: http://segmentfault.com/
-  驱动之家: http://www.mydrivers.com/
+  
 
 
 #duoshuo
