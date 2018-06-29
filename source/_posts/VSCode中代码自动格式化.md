@@ -26,7 +26,7 @@ npm i -g prettier
 
 然后在 VSCode 中做用户设置, 按下 cmd + ,
 
-```
+```json
 {
   "editor.tabSize": 2,  #代码缩进2个空格
   "editor.formatOnSave": true, #每次保存时自动格式化
@@ -47,7 +47,7 @@ npm i -g prettier
 
 在你的项目里配置一个.prettierrc 文件
 
-```
+```json
 {
   "eslintIntegration": true,
   "tabWidth": 2,
@@ -61,7 +61,7 @@ npm i -g prettier
 
 项目里配置一个 .editerconfig
 
-```
+```makefile
 root = true
 
 [*]
