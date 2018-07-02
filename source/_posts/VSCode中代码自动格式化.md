@@ -26,10 +26,10 @@ npm i -g prettier
 
 然后在 VSCode 中做用户设置, 按下 cmd + ,
 
-```json
+```javascript
 {
-  "editor.tabSize": 2,  #代码缩进2个空格
-  "editor.formatOnSave": true, #每次保存时自动格式化
+  "editor.tabSize": 2,  
+  "editor.formatOnSave": true, 
   "eslint.validate": [
     "javascript",
     "javascriptreact",
@@ -40,14 +40,14 @@ npm i -g prettier
       "autoFix": true
     }
   ],
-  "eslint.autoFixOnSave": true, #每次保存时代码按 eslint 规则修复
+  "eslint.autoFixOnSave": true, 
   "vetur.format.defaultFormatter.html": "js-beautify-html"
 }
 ```
 
 在你的项目里配置一个.prettierrc 文件
 
-```json
+```javascript
 {
   "eslintIntegration": true,
   "tabWidth": 2,

@@ -37,6 +37,12 @@ vm.array = newArray
 * 优先写 Vue 指令
 * Vue 指令按优先级顺序书写
 * v-for 不应与 v-if 一起使用
+* 绑定属性为字符串的应如此写 
+
+	```javascript 
+		:type="'Office'"
+	```
+
 * 静态的 html 属性放到最后写 
 
 > 举个例子 ![举个例子](https://ws3.sinaimg.cn/large/006tKfTcly1fsrzbutigbj30km01b3yp.jpg)
