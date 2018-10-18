@@ -1,3 +1,4 @@
+---
 title: 使用mac共享$$给其他设备
 date: 2018-08-04 11:08:52
 categories:

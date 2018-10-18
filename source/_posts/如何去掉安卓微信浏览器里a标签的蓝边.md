@@ -1,3 +1,4 @@
+---
 title: 如何去掉安卓微信浏览器里a标签的蓝边
 date: 2015-08-03 15:40:48
 categories:
@@ -12,6 +13,7 @@ tags:
 ![蓝色边框](/images/9YIWD]ZOAS1A_DXO7FH3.jpg "蓝色边框")
 
 那么如何去掉这个不太招人待见的默认样式呢？代码如下：
+
 ```css
 a {
     outline:none;

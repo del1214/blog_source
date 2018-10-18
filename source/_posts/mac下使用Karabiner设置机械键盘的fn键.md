@@ -1,3 +1,4 @@
+---
 title: mac 下使用 Karabiner 设置机械键盘的 fn 键
 date: 2018-08-24 08:25:11
 categories:
