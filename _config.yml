@@ -89,6 +89,28 @@ social:
 # links
 links:
   
+  
+live2d:
+  dialog:
+    enable: true
+    hitokoto: true
+  enable: true
+  scriptFrom: local
+  pluginRootPath: live2dw/
+  pluginJsPath: lib/
+  pluginModelPath: assets/
+  tagMode: false
+  log: false
+  model:
+    use: live2d-widget-model-kesshouban
+  display:
+    position: right
+    width: 300
+    height: 600
+  mobile:
+    show: true
+  react:
+    opacity: 1
 
 
 #duoshuo
