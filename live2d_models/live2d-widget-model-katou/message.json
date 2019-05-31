@@ -1,0 +1,184 @@
+{
+    "mouseover": [
+
+        {
+            "selector": ".posttitle",
+            "text": ["要看看《{text}》么"]
+        },
+        {
+            "selector": ".al_post_list a",
+            "text": ["要看看《{text}》么"]
+        },
+        {
+            "selector": ".relatea",
+            "text": ["要看看《{text}》么"]
+        },
+        {
+            "selector": ".al_year",
+            "text": ["关于 {text}的故事，你想听哪个呢"]
+        },
+        {
+            "selector": ".al_mon",
+            "text": ["这些是 {text}，要看哪篇呢"]
+        },
+		{
+            "selector": ".image-logo",
+            "text": ["喜欢我的熊猫吗"]
+        },
+        {
+            "selector": ".icon-menu",
+            "text": ["这个是菜单按钮哦"]
+        },
+        {
+            "selector": ".icon-menu2",
+            "text": ["这个是菜单按钮哦"]
+        },
+        {
+            "selector": ".icon-menu3",
+            "text": ["这个是菜单按钮哦"]
+        },
+        {
+            "selector": "#menu-item-259",
+            "text": ["只有会员才能进入的圣地哦，获取资格请联系熊猫"]
+        },
+        {
+            "selector": "#menu-item-328",
+            "text": ["所有文章都按日期排好序啦，要看一下吗"]
+        },
+        {
+            "selector": "#menu-item-321",
+            "text": ["这是熊猫最近的动态，碎碎念什么的"]
+        },
+        {
+            "selector": "#menu-item-440",
+            "text": ["很抱歉，“时间胶囊”暂时不能用哦"]
+        },
+        {
+            "selector": "#menu-item-264",
+            "text": ["逛逛我们的淘宝店，也许有你喜欢的东西哦"]
+        },
+        {
+            "selector": "#menu-item-262",
+            "text": ["要留言吗，是个好主意哎"]
+        },
+        {
+            "selector": "#menu-item-263",
+            "text": ["只要钱到位，您就是爸爸"]
+        },
+        {
+            "selector": "#menu-item-260",
+            "text": ["关于这里的故事呢"]
+        },
+        {
+            "selector": "#menu-item-453",
+            "text": ["可以查看索尼相机的快门次数，比如a6000系列、a7系列等"]
+        },
+        {
+            "selector": ".droppable",
+            "text": ["点击这里选择文件，就可以查看到相机的快门次数啦"]
+        },
+        {
+            "selector": "#results",
+            "text": ["这就是你的相机快门次数啦"]
+        },
+        {
+            "selector": "#menu-item-439",
+            "text": ["这是熊猫的摄影作品展示页，喜欢这风格的话可以找熊猫约片哦"]
+        },
+        {
+            "selector": "#menu-item-265",
+            "text": ["想在手机上访问这里吗，不过手机上可没有我喔"]
+        },
+        {
+            "selector": "#author",
+            "text": ["你好呀，请问怎么称呼呢"]
+        },
+        {
+            "selector": ".fn",
+            "text": ["哦？你认识他/她吗"]
+        },
+		{
+            "selector": "#email",
+            "text": ["留下邮箱，有新回复我会提醒你哦"]
+        },
+        {
+            "selector": "#url",
+            "text": ["跟我说句悄悄话吧，我会保密哦"]
+        },
+        {
+            "selector": "#comment-content",
+            "text": ["要认真填写哦，垃圾评论是禁止事项呢"]
+        },
+        {
+            "selector": "#submit",
+            "text": ["要提交了吗，首次评论需要审核，请耐心等待哦"]
+        },
+        {
+            "selector": ".image-icon",
+            "text": ["点击前往首页，想返回上一页可以用浏览器的后退功能哦"]
+        },
+        {
+            "selector": ".icon-play",
+            "text": ["点这里可以控制音乐播放/暂停哦"]
+        },
+        {
+            "selector": ".icon-images",
+            "text": ["点这里可以在图片/文字间切换哦"]
+        },
+        {
+            "selector": ".like-icon",
+            "text": ["喜欢这篇文章可以点赞哦"]
+        },
+        {
+            "selector": ".icon-wechat",
+            "text": ["扫一扫二维码在手机上继续看呢"]
+        },
+        {
+            "selector": ".icon-weibo",
+            "text": ["直接把内容分享到微博吧"]
+        },
+        {
+            "selector": "#searchform",
+            "text": ["真厉害！你竟然发现了这里唯一的搜索入口"]
+        },
+        {
+            "selector": ".comment-reply-link",
+            "text": ["要回复些什么呢"]
+        },
+        {
+            "selector": "#landlord #live2d",
+            "text": [
+			"干嘛呢你，快把手拿开~",
+			"鼠…鼠标放错地方了！"
+			]
+        }
+    ],
+    "click": 
+	[
+        {
+            "selector": "#landlord #live2d",
+            "text": [
+			"是…是不小心碰到了吧", 
+			"不要动手动脚的", 
+			"真…真的是不知羞耻",
+			"Hentai！", 
+			"再摸的话我可要报警了！⌇●﹏●⌇", 
+			"110吗，这里有个变态一直在摸我(ó﹏ò｡)"
+			]
+        }
+    ],
+    "seasons": [
+        { "date": "01/01", "text": ["<span style=\"color:#0099cc;\">元旦</span>了呢，新的一年又开始了，今年是{year}年~"] },
+        { "date": "02/14", "text": ["又是一年<span style=\"color:#0099cc;\">情人节</span>，{year}年找到对象了嘛~"] },
+        { "date": "03/08", "text": ["今天是<span style=\"color:#0099cc;\">妇女节</span>！"] },
+        { "date": "03/12", "text": ["今天是<span style=\"color:#0099cc;\">植树节</span>，要保护环境呀"] },
+        { "date": "04/01", "text": ["悄悄告诉你一个秘密~<span style=\"background-color:#34495e;\">今天是愚人节，不要被骗了哦~</span>"] },
+        { "date": "05/01", "text": ["今天是<span style=\"color:#0099cc;\">五一劳动节</span>，计划好假期去哪里了吗~"] },
+        { "date": "06/01", "text": ["<span style=\"color:#0099cc;\">儿童节</span>了呢，快活的时光总是短暂，要是永远长不大该多好啊…"] },
+        { "date": "09/03", "text": ["<span style=\"color:#0099cc;\">中国人民抗日战争胜利纪念日</span>，铭记历史、缅怀先烈、珍爱和平、开创未来。"] },
+        { "date": "09/10", "text": ["<span style=\"color:#0099cc;\">教师节</span>，在学校要给老师问声好呀~"] },
+        { "date": "10/01", "text": ["<span style=\"color:#0099cc;\">国庆节</span>，新中国已经成立69年了呢"] },
+        { "date": "11/05-11/12", "text": ["今年的<span style=\"color:#0099cc;\">双十一</span>是和谁一起过的呢~"] },
+        { "date": "12/20-12/31", "text": ["这几天是<span style=\"color:#0099cc;\">圣诞节</span>，主人肯定又去剁手买买买了~"] }
+    ]
+}
