@@ -11,7 +11,7 @@ tags:
 - node
 ---
 
-# 这是一篇快速配置全新Macbook到前端开发环境的文章。我参考了很多配置macbook的文章，在此就不一一致谢了。
+## 这是一篇快速配置全新Macbook到前端开发环境的文章。我参考了很多配置macbook的文章，在此就不一一致谢了。
 
 ## 触摸板
 
@@ -181,3 +181,4 @@ brew install ruby
   * Moom
   * Mou
   * MS Office
+  

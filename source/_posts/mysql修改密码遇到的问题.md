@@ -9,7 +9,7 @@ tags:
 - nodejs
 ---
 
-# 最近在研究 nodejs 的 sequelize遇到了一些 mysql 的管理问题
+## 最近在研究 nodejs 的 sequelize遇到了一些 mysql 的管理问题
 
 ## 首先安装mysql
 

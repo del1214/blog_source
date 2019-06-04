@@ -18,7 +18,7 @@ IDE 大厂微软打造的 VSCode 一经推出就成为了炙手可热的开发�
 
 下面我来推荐一下我使用的插件
 
-# 排名分先后
+## 排名分先后
 
 1.[Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
 > Vue 开发的专属插件谁用谁知道

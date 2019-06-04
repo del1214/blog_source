@@ -8,7 +8,7 @@ tags:
 - Vue
 ---
 
-# v-for 与 key 配合使用
+## v-for 与 key 配合使用
 
 * key 需要是惟一的
 * *频繁数据变化的数组key 不要绑定 index,会引发不渲染的问题*
@@ -25,13 +25,13 @@ const newArray = array.map(item => {
 vm.array = newArray
 ```
 
-# 理解configs/axios.js 配置
+## 理解configs/axios.js 配置
 
 * `configs/axios.js` 中对 axios 做了请求和返回的封装
 * `configs/axios.js` 的默认导出对象是对 cancelToken 的封装
 * `configs/axios.js` 的默认导出对象与原始对象的 api 是有所区别的
 
-# html 属性书写
+## html 属性书写
 
 * 优先写 Vue 指令
 * Vue 指令按优先级顺序书写
@@ -46,7 +46,7 @@ vm.array = newArray
 
 > 举个例子 ![举个例子](https://ws3.sinaimg.cn/large/006tKfTcly1fsrzbutigbj30km01b3yp.jpg)
 
-# 善用计算属性
+## 善用计算属性
 
 * 计算属性节约性能
 * 计算属性属于函数式编程可测试
@@ -59,7 +59,7 @@ vm.array = newArray
 2.v-if 中书写大量表达式的
 ![v-if 中书写大量表达式的](https://ws2.sinaimg.cn/large/006tKfTcly1fsrztj30ynj31940futf8.jpg)
 
-# 常量提取
+## 常量提取
 
 * 便于管理
 * 便于修改
@@ -69,7 +69,7 @@ vm.array = newArray
 
 ![适用场景2](https://ws1.sinaimg.cn/large/006tKfTcly1fsrzxy3mhbj30a50y7wiu.jpg)
 
-# 拆解业务胶水代码
+## 拆解业务胶水代码
 
 * 容易产生混乱的引用关系
 * 前后数据依赖难以测试
@@ -78,15 +78,17 @@ vm.array = newArray
 ![适用场景1](https://ws4.sinaimg.cn/large/006tKfTcly1fss0wgmyrlj30o90nqtee.jpg)
 ![适用场景2](https://ws2.sinaimg.cn/large/006tKfTcly1fss14nc1m4j30og0ilwht.jpg)
 > 解决方案
+
 * 数组操作多使用 map 等返回新数组的操作, 少用 forEach
+
 * 数组对象也可使用...操作符
 * 将复杂的数据处理抽象成独立方法
 
-# Mixin 按照规范编写
+## Mixin 按照规范编写
 
-# 组件命名和使用
+## 组件命名和使用
 
-# BAD 习惯
+## BAD 习惯
 
 1.克隆对象 克隆数组
 
