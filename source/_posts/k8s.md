@@ -16,6 +16,6 @@ tags:
 
 因为google的原因？所有k8s的资源都是被墙的，即便是挂着小飞机也不行。网上搜到的所有方案全部无效。直到我找到了github上一个仓库[k8s-for-docker-desktop](https://github.com/AliyunContainerService/k8s-for-docker-desktop)，解决了问题。
 
-注上面的方法只是解决Docker Desktop的Kubernetes,linux下的应该大致相同但又有不同
+>注:上面的方法只是解决Docker Desktop的Kubernetes,linux下的应该大致相同但又有不同
 
 好吧，照着做就行了😊
