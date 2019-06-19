@@ -51,7 +51,7 @@ docker start [OPTIONS] CONTAINER [CONTAINER...]
 
 `docker run`将`docker create`和`docker start`两步并作一步，容器创建后会立刻启动
 
-`docker run` 是我们居家旅行杀人灭口必备命令它能干的事非常多
+`docker run` 是我们居家旅行杀人灭口必备命令，它能干的事非常多
 
 ##### ***高级内容，不熟可跳过***
 
