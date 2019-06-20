@@ -91,6 +91,7 @@ Task是swarm中的最小原子调度单位，就是一个单一的容器
 Service 是一组Task的集合，Service 定义 Task的属性
 
 Service 有两种模式:
+
 * ***replicated service***: 按一定规则在各节点上运行指定个数的Task
 
 * ***global service***:每个节点上只运行一个task
@@ -127,7 +128,8 @@ docker service scale helloworld=3
 # helloworld scaled to 3
 ```
 
-> 也可以缩小
+可扩大，也可缩小
+> 有点像一种神秘的柱状物(金箍棒)可大可小
 
 ##### 回滚服务配置
 
