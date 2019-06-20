@@ -225,10 +225,13 @@ docker run -P nginx:latest
 
 A 既没有在`Dockerfile`里`Expose`，也没有`run -p`
 >启动在这个container里的服务既不能被host主机和外网访问，也不能被link的container访问，只能在此容器内部使用
+
 B 只在`Dockerfile`里`Expose`了这个端口
 >启动在这个container里的服务不能被docker外部世界（host和其他主机）访问，但是可以通过container link，被其他link的container访问到
+
 C 同时在`Dockerfile`里`Expose`，又`run -p`
 >启动的这个cotnainer既可以被docker外部世界访问，也可以被link的container访问
+
 D 只有`run －p`
 >docker做了特殊的隐式转换，等价于情况C，既可以被外部世界访问，也可以被link的container访问到（真对这种情况，原因是docker认为，既然你都要把port open到外部世界了，等价于其他的container肯定也能访问，所以docker做了自动的Expose
 
