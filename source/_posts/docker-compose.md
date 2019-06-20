@@ -16,7 +16,6 @@ tags:
 ### Compose文件
 
 docker-compose主要围绕compose文件定义工作,从发布到目前一共有下面这些版本
-
 <table>
   <thead>
     <tr>
@@ -116,7 +115,7 @@ services:
       easy-mock:
         # 配置容器网络别名
         aliases:
-          # webapp可以通过host mongodb来找到这台服务器
+          # webapp可以通过hostname mongodb来找到这台服务器,数据库链接字符串变成了mongodb://mongodb/easy-mock
           - mongodb
     # swarm 模式失效
     # 一直重启
@@ -191,6 +190,7 @@ services:
     ports:
       - "8888:3000"
     volumes:
+      # 下面这个有个大坑就是会让自己Dockerfile的COPY到WORKDIR的内容全部消失，😂
       # - ./:/code  加入这个会让dockerfile npm i 产生的 node_modules消失
       - ./logs:/code/logs
 
