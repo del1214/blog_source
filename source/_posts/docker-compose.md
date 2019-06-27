@@ -233,7 +233,7 @@ docker-compose config
 
 ### 常用命令
 
-### ***启动***
+#### ***启动***
 
 创建启动container
 
@@ -264,5 +264,31 @@ docker-compose run web env
 
 ***单独的docker-compose只用于开发测试
 配合 docker swarm 和 docker stack就是用于部署***
+
+### 实战
+
+#### 设置Mysql时区,默认字符集等参数
+
+```yml
+services:
+  db:
+    image: mysql
+    restart: always
+    command: [
+      '--character-set-server=utf8mb4',
+      '--collation-server=utf8mb4_unicode_ci',
+      '--default-time-zone=+8:00',
+      '--default-authentication-plugin=mysql_native_password'
+    ]
+# 或
+services:
+  db:
+    image: mysql
+    restart: always
+    command: --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci --default-time-zone=+8:00 --default-authentication-plugin=mysql_native_password
+```
+
+> command指令会替换镜像Dockerfile中最后的CMD 或 ENTRYPOINT 如果不太熟悉官方镜像尽量只传参数不要自己写命令
+
 
 >To Be Continue
