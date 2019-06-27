@@ -265,6 +265,29 @@ docker-compose run web env
 ***单独的docker-compose只用于开发测试
 配合 docker swarm 和 docker stack就是用于部署***
 
+### 疑难配置详解
+
+#### command 和 entrypoint
+
+***command 和 entrypoint 最后必须能产生一个不退出进程的PID***
+
+> command 和 entrypoint 指令会替换镜像 Dockerfile 中最后的 CMD 或 ENTRYPOINT 如果不太熟悉官方镜像尽量只传参数不要自己写命令
+
+##### 多行书写
+
+```yml
+  command:
+    - /bin/sh
+    - -c
+    - |
+        bundle config mirror.https://rubygems.org https://gems.ruby-china.org
+        bundle exec rake redmine:plugins:migrate RAILS_ENV=production
+        bundle exec rake tmp:cache:clear tmp:sessions:clear RAILS_ENV=production
+        /docker-entrypoint.sh passenger start
+# 或
+  command: ["sh", "-c", "cp -r /usr/src/redmine/public/. /www/public/ && /docker-entrypoint.sh"]
+```
+
 ### 实战
 
 #### 设置Mysql时区,默认字符集等参数
@@ -287,8 +310,6 @@ services:
     restart: always
     command: --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci --default-time-zone=+8:00 --default-authentication-plugin=mysql_native_password
 ```
-
-> command指令会替换镜像Dockerfile中最后的CMD 或 ENTRYPOINT 如果不太熟悉官方镜像尽量只传参数不要自己写命令
 
 
 >To Be Continue
