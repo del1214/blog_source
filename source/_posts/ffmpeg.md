@@ -11,6 +11,8 @@ tags:
 
 m3u8介君愁，切成一堆小文件，读取速度会很快
 
+>页面需使用 videojs 一类的播放框架才能支持m3u8
+
 ```bash
 ffmpeg -i input.mp4 -codec: copy -bsf:v h264_mp4toannexb -start_number 0 -hls_time 10 -hls_list_size 0 -f hls output.m3u8
 ```
