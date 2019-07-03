@@ -102,11 +102,11 @@ live2d:
   tagMode: false
   log: false
   model:
-    use: live2d-widget-model-katou
+    use: live2d-widget-model-tororo
   display:
     position: right
-    width: 290
-    height: 520
+    width: 174
+    height: 312
   mobile:
     show: true
   react:
